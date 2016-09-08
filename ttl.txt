@@ -1,0 +1,42 @@
+172800s TTL NS
+900s 	TTL (SOA)
+
+Updating: 
+a.dns.gandi.net
+b.dns.gandi.net
+c.dns.gandi.net
+
+to:
+
+ns-1935.awsdns-49.co.uk.
+ns-1081.awsdns-07.org.
+ns-776.awsdns-33.net.
+ns-181.awsdns-22.com.
+
+
+andyn.ca@8.8.4.4 (Default):
+dig A +noadditional +noquestion +nocomments +nocmd +nostats andyn.ca. @8.8.4.4
+andyn.ca.		10799	IN	A	217.70.184.38
+
+www.andyn.ca@8.8.4.4 (Default):
+dig A +noadditional +noquestion +nocomments +nocmd +nostats www.andyn.ca. @8.8.4.4
+www.andyn.ca.		7022	IN	CNAME	webredir.vip.gandi.net.
+webredir.vip.gandi.net.	11116	IN	A	217.70.184.38
+
+
+
+
+
+
+
+
+
+
+
+
+
+ns-684.awsdns-21.net. 
+ns-1065.awsdns-05.org. 
+ns-2011.awsdns-59.co.uk. 
+ns-329.awsdns-41.com.
+
